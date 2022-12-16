@@ -1,0 +1,181 @@
+.user_trip_detail_container{
+    position: relative;
+    width: 100%;
+    background-color: #292929;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.user_trip_detail_container h2{
+    padding: 12px 20px;
+    background-color: #222222;
+    font-size: 18px;
+}
+.user_empty_trip_wrap{
+    width: 100%;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+}
+.user_empty_trip_img{
+    width: 160px;
+    padding: 0 30px;
+}
+.user_empty_trip_img img{}
+.user_empty_trip_info_wrap{
+    width: calc(100% - 160px);
+    padding-left: 30px;
+}
+.user_empty_trip_info{}
+.user_empty_trip_info h3{
+    font-size: 24px;
+}
+.user_empty_trip_info p{
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+.y_btn_small{
+    background-color: #FFC30D !important;
+    font-weight: 500;
+    padding: 4px 30px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+/* Booking details style */
+.user_upcoming_bk_info_container{
+    padding: 15px 15px 0;
+    position: relative;
+}
+.user_upcoming_bk_info_container:last-child{
+    padding-bottom: 15px;
+}
+.bk_info_title_wrap{
+    width: 100%;
+    display: flex;
+}
+.bk_info_title_wrap h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+.bk_info_title_wrap a, .bk_room_info_title a{
+    color: #fff;
+}
+.bk_info_title_wrap .star_val{
+    display: flex;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+.bk_info_title_wrap .star_val i{
+    font-size: 14px;
+    display: table;
+}
+.bk_info_content_wrap{
+    width: 100%;
+    position: relative;
+    margin: 10px 0;
+    display: inline-block;
+    border-bottom: 1px solid #444;
+    padding-bottom: 24px;
+}
+.user_upcoming_bk_info_container:last-child .bk_info_content_wrap{
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.bk_info_content_img{
+    width: 180px;
+    border-radius: 4px;
+    overflow: hidden;
+    float: left;
+}
+.bk_info_content_img img{}
+.bk_info_content{
+    width: calc(100% - 200px);
+    float: right;
+}
+.bk_info_address{
+    font-size: 15px;
+    color: #ddd;
+}
+.bk_info_address i{
+    font-size: 14px;
+    margin-right: 4px;
+    color: #ddd;
+}
+.bk_room_info_wrap{
+    width: 100%;
+    padding: 15px;
+    background-color: rgba(256,256,256,0.05);
+    border-radius: 4px;
+    margin-top: 15px;
+    display: inline-block;
+}
+.bk_room_info_title{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.bk_room_policy_wrap{
+    float: left;
+    display: block;
+    margin-top: 10px;
+}
+.bk_room_policy_wrap p{
+    font-size: 14px;
+    color: lawngreen;
+    margin-bottom: 0;
+    position: relative;
+}
+.bk_room_policy_wrap a{
+    font-size: 12px;
+}
+.bk_action_btn_wrap{
+    float: right;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.bk_action_btn_wrap .btn{
+    font-size: 13px;
+}
+.bk_room_date_wrap{
+    width: 100%;
+    display: inline-block;
+    clear: both;
+    margin-top: 15px;
+    padding: 0 15px;
+    border-radius: 4px;
+    border: 1px solid rgba(256,256,256,0.1);
+}
+.bk_room_date_list{
+    padding: 15px 0;
+}
+.bk_room_date_list h4{
+    font-size: 13px;
+}
+.bk_room_date_list h5{
+    font-size: 16px;
+    color: #ffc30e;
+}
+.bk_room_date_list p{
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.bk_send_info_btn_container{
+    position: relative;
+    clear: both;
+    width: 100%;
+    text-align: right;
+}
+.bk_send_info_btn_container button{
+    margin-top: 24px;
+    font-size: 13px;
+    margin-left: 5px;
+    background-color: #ffc30e;
+    color: #222;
+    font-weight: 600;
+}
+.bk_send_info_btn_container button i{
+    margin-right: 5px;
+    color: #222;
+}

@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+  <title>Yennarascala</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
+  <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Roboto:300,400,500,700,900|Titillium+Web:300,400,600,700,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- <link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css'
+        rel='stylesheet'> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+  <div class="world_wrap">
+    <header class="header">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-md navbar-light">
+        <a class="navbar-brand" href="index.html"><img src="assets/images/logo_small.png" class="img-fluid"></a>
+        <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between right" id="nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-light px-3" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light px-3" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light px-3" href="#">CONTACT</a>
+            </li>
+            <li class="nav-item">
+                <div class="signin_container">
+                    <a class="nav-link text-light " href="login.html"><i class="fas fa-user-circle"></i> Login</a> /
+                    <a class="nav-link text-light " href="signup.html">Sign Up</a>
+                </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="main_container">
+      <div class="main_bg" id="search_results"></div>
+      <section class="search_bar">
+        <div class="search_bar_container">
+          <div class="main_search">
+            <form>
+              <div class="current_tour">
+                <input type="text" value="Indonesia">
+              </div>
+              <div class="selected_date">
+                <div class="picked_date">
+                  <input type="text" placeholder="From" class="" id="reservationDate">
+                </div>
+              </div>
+              <div class="tour_days">
+                <input type="number" value="4">
+              </div>
+              <div class="tour_guests">
+                <div class="tour_bg">
+                  <span class="fas fa-chevron-down"></span>
+                  <input type="number" id="total_guests" value="1">
+                  <div class="guests_toggle"></div>
+                </div>
+                <div class="numbr_guests">
+                  <ul>
+                    <li>
+                      <label>Adults</label>
+                      <div class="field_box" id="adult_counter">
+                        <i class="fas fa-minus-square negate_one"></i>
+                        <input type="number" id="num_adults" onchange="updateGuests()" min="1" value="1">
+                        <i class="fas fa-plus-square add_one "></i>
+                      </div>
+                    </li>
+                    <li>
+                      <label>Children to 12 years</label>
+                      <div class="field_box" id="child_counter">
+                        <i class="fas fa-minus-square negate_one"></i>
+                        <input type="number" id="num_children" onchange="updateGuests()" min="0" value="0">
+                        <i class="fas fa-plus-square add_one"></i>
+                      </div>
+                    </li>
+                    <li>
+                      <label>Infants to 2 years</label>
+                      <div class="field_box" id="infant_counter">
+                        <i class="fas fa-minus-square negate_one"></i>
+                        <input type="number" id="num_infants" onchange="updateGuests()" min="0" value="0">
+                        <i class="fas fa-plus-square add_one"></i>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="submit_query">
+                <input type="submit" value="Search">
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="activity_list">
+        <div class="activities_container">
+          <h2>Select your tour activities</h2>
+          <div class="row">
+            <div class="col-md-6 col-lg-3 mt-5 pb-5">
+              <div class="activity_wrap">
+                <div class="activity_select">
+                  <div class="acivity_img" style="background-image: url('assets/images/aerial-photography-of-person-in-a-kayak-2249606.jpg');"></div>
+                  <span class="fas fa-check"></span>
+                  <h3>Kiyaking</h3>
+                </div>
+                <div class="activity_info">
+                  <div class="activity_time">
+                    <p><b>Time</b><br>
+                      3Hrs - 5Hrs
+                    </p>
+                  </div>
+                  <div class="activity_desc">
+                    <p><b>Description</b><br>
+                      Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla egestas neque in venenatis posuere. Proin quis volutpat sem, ac cursus neque. Maecenas suscipit ante quis nulla egestas varius. Donec porttitor ac est sit amet faucibus. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mt-5 pb-5">
+              <div class="activity_wrap">
+                <div class="activity_select">
+                  <div class="acivity_img" style="background-image: url('assets/images/city-buildings-during-night-time-3787939.jpg');"></div>
+                  <span class="fas fa-check"></span>
+                  <h3>City Tour</h3>
+                </div>
+                <div class="activity_info">
+                  <div class="activity_time">
+                    <p><b>Time</b><br>
+                      3Hrs - 5Hrs
+                    </p>
+                  </div>
+                  <div class="activity_desc">
+                    <p><b>Description</b><br>
+                      Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla egestas neque in venenatis posuere. Proin quis volutpat sem, ac cursus neque. Maecenas suscipit ante quis nulla egestas varius. Donec porttitor ac est sit amet faucibus. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mt-5 pb-5">
+              <div class="activity_wrap">
+                <div class="activity_select">
+                  <div class="acivity_img" style="background-image: url('assets/images/photography-of-person-on-green-mountain-691034.jpg');"></div>
+                  <span class="fas fa-check"></span>
+                  <h3>Hiking</h3>
+                </div>
+                <div class="activity_info">
+                  <div class="activity_time">
+                    <p><b>Time</b><br>
+                      3Hrs - 5Hrs
+                    </p>
+                  </div>
+                  <div class="activity_desc">
+                    <p><b>Description</b><br>
+                      Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla egestas neque in venenatis posuere. Proin quis volutpat sem, ac cursus neque. Maecenas suscipit ante quis nulla egestas varius. Donec porttitor ac est sit amet faucibus. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mt-5 pb-5">
+              <div class="activity_wrap">
+                <div class="activity_select">
+                  <div class="acivity_img" style="background-image: url('assets/images/adventure-air-aircraft-balloon-210012.jpg');"></div>
+                  <span class="fas fa-check"></span>
+                  <h3>Balloon Ride</h3>
+                </div>
+                <div class="activity_info">
+                  <div class="activity_time">
+                    <p><b>Time</b><br>
+                      3Hrs - 5Hrs
+                    </p>
+                  </div>
+                  <div class="activity_desc">
+                    <p><b>Description</b><br>
+                      Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla egestas neque in venenatis posuere. Proin quis volutpat sem, ac cursus neque. Maecenas suscipit ante quis nulla egestas varius. Donec porttitor ac est sit amet faucibus. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-3 mt-5 pb-5">
+              <div class="activity_wrap">
+                <div class="activity_select">
+                  <div class="acivity_img" style="background-image: url('assets/images/fishing-sunset-romantic-ocean-54580.jpg');"></div>
+                  <span class="fas fa-check"></span>
+                  <h3>Boating</h3>
+                </div>
+                <div class="activity_info">
+                  <div class="activity_time">
+                    <p><b>Time</b><br>
+                      3Hrs - 5Hrs
+                    </p>
+                  </div>
+                  <div class="activity_desc">
+                    <p><b>Description</b><br>
+                      Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla egestas neque in venenatis posuere. Proin quis volutpat sem, ac cursus neque. Maecenas suscipit ante quis nulla egestas varius. Donec porttitor ac est sit amet faucibus. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mt-5 pb-5">
+              <div class="activity_wrap">
+                <div class="activity_select">
+                  <div class="acivity_img" style="background-image: url('assets/images/art-design-gallery-group-460736.jpg');"></div>
+                  <span class="fas fa-check"></span>
+                  <h3>Museum</h3>
+                </div>
+                <div class="activity_info">
+                  <div class="activity_time">
+                    <p><b>Time</b><br>
+                      3Hrs - 5Hrs
+                    </p>
+                  </div>
+                  <div class="activity_desc">
+                    <p><b>Description</b><br>
+                      Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla egestas neque in venenatis posuere. Proin quis volutpat sem, ac cursus neque. Maecenas suscipit ante quis nulla egestas varius. Donec porttitor ac est sit amet faucibus. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mt-5 pb-5">
+              <div class="activity_wrap">
+                <div class="activity_select">
+                  <div class="acivity_img" style="background-image: url('assets/images/adventure-air-flight-flying-1556664.jpg');"></div>
+                  <span class="fas fa-check"></span>
+                  <h3>Gliding</h3>
+                </div>
+                <div class="activity_info">
+                  <div class="activity_time">
+                    <p><b>Time</b><br>
+                      3Hrs - 5Hrs
+                    </p>
+                  </div>
+                  <div class="activity_desc">
+                    <p><b>Description</b><br>
+                      Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla egestas neque in venenatis posuere. Proin quis volutpat sem, ac cursus neque. Maecenas suscipit ante quis nulla egestas varius. Donec porttitor ac est sit amet faucibus. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mt-5 pb-5">
+              <div class="activity_wrap">
+                <div class="activity_select">
+                  <div class="acivity_img" style="background-image: url('assets/images/photo-of-man-holding-hiking-poles-on-snow-field-1002272.jpg');"></div>
+                  <span class="fas fa-check"></span>
+                  <h3>Trekking</h3>
+                </div>
+                <div class="activity_info">
+                  <div class="activity_time">
+                    <p><b>Time</b><br>
+                      3Hrs - 5Hrs
+                    </p>
+                  </div>
+                  <div class="activity_desc">
+                    <p><b>Description</b><br>
+                      Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla egestas neque in venenatis posuere. Proin quis volutpat sem, ac cursus neque. Maecenas suscipit ante quis nulla egestas varius. Donec porttitor ac est sit amet faucibus. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container main_footer">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="footer_col" id="need_help">
+            <h4>Need Help?</h4>
+            <div class="footer_inner">
+              <div class="footer_minirow">
+                <h5>Call Us</h5>
+                <span>+91 7680899602</span>
+              </div>
+            </div>
+            <div class="footer_inner">
+              <div class="footer_minirow">
+                <h5>Call Us</h5>
+                <span><a href="mailto:bijjam@yennarascala.com">bijjam@yennarascala.com</a></span>
+              </div>
+            </div>
+            <div class="footer_inner">
+              <div class="footer_minirow">
+                <h5>Follow Us</h5>
+                <span>
+                  <a href="#"><i class="fab fa-facebook-square"></i></a>
+                  <a href="#"><i class="fab fa-twitter-square"></i></a>
+                  <a href="#"><i class="fab fa-instagram-square"></i></a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer_col" id="company">
+            <h4>Company</h4>
+            <div class="footer_menu">
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Community Blog</a></li>
+                <li><a href="#">Rewards</a></li>
+                <li><a href="#">Work with Us</a></li>
+                <li><a href="#">Meet the Team</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="footer_col" id="company">
+            <h4>Support</h4>
+            <div class="footer_menu">
+              <ul>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Legal</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Affiliate Program</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer_col" id="setting">
+            <h4>Setting</h4>
+            <div class="footer_form">
+              <label>Currencies</label>
+              <div class="currency_sel">
+                <span class="fas fa-chevron-down"></span>
+                <select>
+                  <option value="inr">Inr</option>
+                  <option value="eur">Eur</option>
+                  <option value="mercedes">Usd</option>
+                  <option value="audi">Aud</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="sub_footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6">
+          <p>Copyright © 2020 by <a href="#">Yennarascala Tours</a></p>
+        </div>
+        <div class="col-sm-6"><img src="assets/images/footer_sub.jpg" alt=""></div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"> -->
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js">
+    </script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script> -->
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

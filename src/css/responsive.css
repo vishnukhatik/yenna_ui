@@ -1,0 +1,172 @@
+@media screen and (max-width: 320px){
+    .sub_footer {
+        padding: 10px 0px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .stay_form {
+        left: auto!important;
+        margin: 0 auto!important;
+        position: relative!important;
+    }
+
+    .numbr_guests {
+        display: block!important;
+        left: -20px!important;
+        top: 74px!important;
+        box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2)!important;
+    }
+    .hotel_search_bar h1 {
+        font-size: 27px !important;
+        padding: 15px;
+    }
+    .search_bar_input_container {
+        margin-bottom: 15px;
+    }
+    .subscribe_label {
+        width: 100%;
+    }
+    .subscribe_label .label_img {
+        display: none;
+    }
+    .subscribe_label .label_text {
+        padding-left: 0px !important;
+    }
+    .sub_footer img {
+        float: none;
+        width: 100%;
+    }
+    .hotel_offers_container h2 {
+        font-size: 27px !important;
+    }
+    .contact_info_container .contact_pg_title {
+        font-size: 27px !important;
+    }
+    .contact_details_container {
+        flex-direction: column-reverse;
+    }
+    .contact_info_container .contact_details_container .contact_form_container {
+        width: 100% !important;
+    }
+    .search_bar_mod {
+        position: absolute !important;
+        z-index: 9999;
+        background-color: rgba(0, 0, 0, 0.9);
+        padding: 15px;
+        width: 93% !important;
+        border-radius: 12px;
+        font-weight: 500;
+        float: none !important;
+        display: flex;
+        flex-direction: column;
+        -webkit-transition: all .25s ease !important;
+        transition: all .25s ease !important;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-animation: slide-down .3s ease-out;
+        -moz-animation: slide-down .3s ease-out;
+        animation: slide-down .3s ease-out;
+    }
+    @-webkit-keyframes slide-down {
+        0% { opacity: 0; -webkit-transform: translateX(-100%); }   
+        100% { opacity: 1; -webkit-transform: translateX(0); }
+    }
+    @keyframes slide-down {
+        0% { opacity: 0; -moz-transform: translateX(-100%); }   
+        100% { opacity: 1; -moz-transform: translateX(0); }
+    }
+    @-moz-keyframes slide-down {
+        0% { opacity: 0; -moz-transform: translateX(-100%); }   
+        100% { opacity: 1; -moz-transform: translateX(0); }
+    }
+    .search_bar_mod h1 {
+        font-size: 2rem;
+    }
+    .search_hotel_results_container {
+        width: 100% !important;
+        float: none !important;
+        padding: 0px !important;
+        margin-top: 20px !important;
+    }
+    .s_recom_hotel_wrap {
+        margin-bottom: 20px !important;
+    }
+    .s_hotel_container {
+        flex-direction: column !important;
+    }
+    .s_hotel_info_container {
+        width: 100% !important;
+        padding: 0 15px 0 0px !important;
+        margin-top: 40px !important;
+    }
+    .dash_hotel_room_price {
+        margin-top: 20px !important;
+    }
+    .book_room_btn_wrap {
+        text-align: center !important;
+    }
+    .s_hotel_details_wrap .s_hotel_amenities_wrap .amenities_item {
+        padding-right: 10px !important;
+    }
+    .s_hotel_price_container, .s_hotel_img_container {
+        width: 100% !important;
+    }
+    .s_hotel_price, .s_hotel_price_desc {
+        text-align: left !important;
+    }
+    .dash_menu_item .dash_menu_item_name {
+        display: none !important;
+    }
+    .dash_menu_item .user-icon {
+        margin-left: 15px !important;
+    }
+    .acc_submenu_wrap {
+        right: 0 !important;
+    }
+    .bk_info_content_wrap {
+        flex-direction: column !important;
+        display: flex !important;
+    }
+    .bk_info_content_img {
+        width: 100% !important;
+    }
+    .bk_info_content {
+        width: 100% !important;
+    }
+    .bk_info_content_wrap .bk_info_content_img .q-img {
+        height: 300px !important;
+        max-width: 100% !important;
+    }
+    .bk_action_btn_wrap {
+        float: left !important;
+    }
+    .main_table_wrap table {
+        table-layout: auto !important;
+    }
+    .form_input_wrap {
+        margin-top: 10px;
+    }
+    /* .hotel-table-detail th, .hotel-table-detail td {
+        min-width: 0px;
+    }
+    .hotel-table-detail tr td:nth-child(1) {
+        min-width: 0px !important;
+    } */
+    .dash_hotel_room_inclusions_wrap {
+        margin-top: 2rem !important;
+    }
+    .w-sm-100 {
+        width: 100% !important;
+    }
+    .s_hotel_room_img_container, .s_hotel_room_info_container {
+        width: 100% !important;
+        margin-top: 10px !important;
+    }
+    .s_hotel_room_img_container img{
+        width: 100% !important;
+        height: 250px !important;
+    }
+    .proceed_btn {
+        padding: 7px 50px 6px!important;
+    }
+}

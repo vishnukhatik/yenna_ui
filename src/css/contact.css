@@ -1,0 +1,79 @@
+/*-------------- contact page style -------------*/
+.contact_info_container{
+    padding: 140px 0;
+}
+#contact_bg{
+    background: radial-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url(../assets/images/contact_bg.png) no-repeat center;
+    background-size: cover;
+}
+.contact_pg_title{
+    padding-top: 60px;
+    color: #ffc30e;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+}
+.contact_details_container{
+    margin: 30px auto 0;
+    background-color: #222;
+    position: relative;
+    border-radius: 6px;
+    box-shadow: 0 0 20px 8px rgba(0,0,0,0.8);
+    overflow: hidden;
+    display: flex;
+}
+.contact_form_container{
+    width: calc(100% - 360px);
+    padding: 30px;
+    color: #fff;
+}
+.contact_form_container h2, .contact_address_container h2{
+    font-size: 24px;
+}
+.contact_form_container ul{
+    width: 100%;
+    margin: 0;
+    padding-top: 15px;
+}
+.contact_form_container li{}
+.contact_form_container li p{
+    margin-bottom: 2px;
+    font-size: 14px;
+}
+.contact_form_container input{
+    height: 34px;
+}
+.contact_form_container textarea{
+    width: 100%;
+}
+.contact_address_container{
+    background-color: #ffc30e;
+    padding: 30px;
+}
+.contact_address_container ul{
+    margin: 0;
+    width: 100%;
+    padding-top: 30px;
+}
+.contact_address_container li{
+    display: flex;
+    margin-bottom: 15px;
+}
+.contact_address_container li i{
+    margin-right: 8px;
+    padding-top: 2px;
+    width: 20px;
+    text-align: center;
+    display: inline-table;
+}
+.contact_address_container li p{
+    font-size: 13px;
+    font-weight: 500;
+}
+button.contact_form_sbmt{
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #ffc30e;
+    margin-top: 10px;
+    font-weight: 500;
+}

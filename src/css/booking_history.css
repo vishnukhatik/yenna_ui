@@ -1,0 +1,39 @@
+.overview_percent_block_wrap, .overview_graph_container{
+    background-color: #1a1a1a;
+    padding: 15px;
+    border-radius: 4px;
+}
+.overview_percent_block{
+    position: relative;
+    width: 100%;
+    margin-top: 8px;
+    display: inline-block;
+    border-bottom: 1px solid #333;
+}
+.overview_percent_block h4{
+    font-size: 14px;
+}
+.overview_percent_block h3{
+    font-size: 20px;
+}
+.overview_percent_block span{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 13px;
+    padding: 0px 5px;
+    border-radius: 4px;
+}
+.overview_percent_block:first-child{
+    margin-top: 5px;
+}
+.overview_percent_block:last-child{
+    border-bottom: 0;
+}
+.overview_graph_container h3{
+    font-size: 18px;
+    margin: 0;
+}
+.graph_wrap * {
+    color: #111;
+}

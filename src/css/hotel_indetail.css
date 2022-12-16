@@ -1,0 +1,286 @@
+/* ----------------- Hotel details page style ---------------- */
+.hotel_indetail_container{
+    /* width: 100%;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: table;*/
+    padding: 0 0 60px;
+    color: #fff;
+}
+.content_view_wrap h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.dash_detailed_container{}
+.dash_hotel_info_container{}
+.dash_hotel_img_info_wrap{}
+.dash_hotel_img_wrap{
+    width: 100%;
+    max-height: 320px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.dash_hotel_img_wrap img{}
+.dash_hotel_detail_list_wrap{
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+}
+.dash_hotel_detail_list_wrap ul{
+    margin: 0;
+    display: table;
+    width: 100%;
+}
+.dash_hotel_detail_list_wrap li{
+    width: 25%;
+    float: left;
+}
+.dash_hotel_detail_list_item{
+    width: 100%;
+    padding: 6px  15px 0;
+    display: inline-block;
+    height: 100%;
+}
+.dash_hotel_detail_list_item h3{
+    font-size: 14px;
+    margin: 0;
+}
+.dash_hotel_detail_list_item h4{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+.dash_hotel_detail_list_item h2{
+    margin: 0;
+    font-size: 24px;
+    color: #ffc30e;
+}
+
+/* star rating style */
+.tour_review {
+    float: left;
+}
+
+.star_val {
+    float: left;
+}
+
+.star_val i {
+    font-size: 32px;
+    display: block;
+    color: #ffc30e;
+}
+
+.star_rate {
+    float: right;
+    margin-left: 8px;
+}
+
+.star_rate h2 {
+    font-size: 20px;
+    margin: 0;
+    line-height: 18px;
+    color: #fff;
+}
+
+.star_rate a {
+    font-size: 13px;
+    display: block;
+    padding-top: 2px;
+    line-height: 13px;
+    color: #ffc30e;
+}
+
+.hotel_location_info_wrap{}
+.dash_hotel_map_wrap{}
+.dash_hotel_map_wrap h3{
+    font-size: 20px;
+}
+.dash_hotel_map_iframe{
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.dash_hotel_map_iframe iframe{
+    width: 100%;
+    min-height: 280px;
+    border-radius: 4px;
+}
+.dash_hotel_address_wrap{
+    width: 100%;
+}
+.dash_hotel_address_wrap h3{
+    font-size: 20px;
+}
+.dash_hotel_address_wrap p{
+    margin: 0;
+}
+
+/* Hotel tabs style */
+.dash_hotel_detail_container{
+    margin: 30px 0;
+}
+.dash_tablist_wrap{}
+.dash_tablist_wrap .nav{
+    border: none;
+}
+.dash_tablist_wrap .nav-item{}
+.dash_tablist_wrap .nav-item a{
+    border: none;
+    /* background-color: #222; */
+    margin-right: 6px;
+    margin-bottom: 6px;
+    color: #eee;
+    border-radius: 6px;
+}
+.dash_tablist_wrap .nav-item a.active{
+    background-color: #222;
+    color: #eee;
+    margin-bottom: 0;
+    padding-bottom: 13px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.dash_tablist_wrap .nav-tabs .nav-link:focus, .dash_tablist_wrap .nav-tabs .nav-link:hover{
+    border: none;
+}
+.dash_tab_content_wrap{
+    background-color: #222;
+    padding: 15px;
+}
+.dash_hotel_room_info_wrap table{
+    margin: 0;
+    color: #fff;
+}
+.dash_tab_content_wrap table thead th{
+    border: none;
+    font-weight: 500;
+}
+.dash_tab_content_wrap table tbody td{
+    border-color: #444;
+}
+.dash_hotel_room_info_wrap {
+    background-color: #2a2a2a;
+    border-radius: 6px;
+    padding: 12px;
+}
+.dash_hotel_room_img_info_wrap{}
+.dash_hotel_room_img_info_wrap h4{
+    font-size: 15px;
+}
+.dash_hotel_room_img{
+    max-width: 180px;
+    width: 100%;
+}
+.dash_hotel_room_img img{}
+.dash_hotel_room_img_info_wrap p{
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.dash_hotel_room_img_info_wrap p i{}
+.dash_hotel_room_options_wrap{}
+.dash_hotel_room_advs_wrap{}
+.dash_hotel_room_advs_wrap ul{
+    margin: 0;
+}
+.dash_hotel_room_advs_wrap li{}
+.dash_hotel_room_advs_item{}
+.dash_hotel_room_advs_item p{
+    color: chartreuse;
+    margin: 0;
+}
+.dash_hotel_room_advs_item p i{
+    font-size: 13px;
+    color: chartreuse;
+}
+.dash_hotel_room_policy_list_wrap{}
+.dash_hotel_room_policy_list_wrap ul{
+    margin-bottom: 0rem;
+}
+.dash_hotel_room_policy_list_wrap li{}
+.dash_hotel_room_policy_list_wrap li a{}
+.dash_hotel_room_inclusions_list{}
+.dash_hotel_room_inclusions_list ul{
+    margin-bottom: 0rem !important;
+}
+.dash_hotel_room_inclusions_list li{
+    list-style: disc;
+    font-size: 12px !important;
+    list-style-position: inside;
+    background: #0d0d0d3b;
+    margin: 5px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 6px;
+}
+.dash_hotel_room_price{
+    margin-bottom: 15px;
+}
+.dash_hotel_room_price:last-child{
+    margin-bottom: 0;
+}
+.dash_hotel_room_price p{
+    text-decoration: line-through;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.dash_hotel_room_price h3{
+    font-weight: 500;
+    color: #ffc30e;
+    font-size: 32px;
+    margin: 0;
+    line-height: 28px;
+}
+.dash_hotel_room_price h4{
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+.dash_hotel_room_price h3 i{
+    color: #ffc30e;
+    font-size: 16px;
+}
+.dash_hotel_room_price span{
+    font-size: 11px;
+    display: block;
+    line-height: 24px;
+}
+.dash_hotel_edit_btn_container{}
+.dash_hotel_edit_btn_container ul{
+    text-align: center;
+}
+.dash_hotel_edit_btn_container li{
+    display: inline-block;
+}
+.dash_hotel_edit_btn_container li a{
+    padding: 2px 10px;
+}
+.dash_hotel_edit_btn_container li a i{
+}
+.dash_hotel_room_amenities_wrap li{
+    list-style: inside;
+}
+.hotel-table-detail th, .hotel-table-detail td {
+    min-width: 16.8rem;
+}
+/* .hotel-table-detail tr td:nth-child(1) {
+    min-width: 0px !important;
+} */
+/* .hotel-table-detail thead tr th:first-child,
+.hotel-table-detail tbody tr td:first-child {
+  width: 3em;
+  min-width: 3em;
+  max-width: 3em;
+  word-break: break-all;
+} */
+.hotel-room--detail-header {
+padding: 10px 0px;
+margin-bottom: 10px;
+border-top: 2px solid #fff;
+border-bottom: 2px solid #fff;
+}
+.w-sm-100 {
+ width: 25%;   
+}

@@ -1,0 +1,229 @@
+.modal_container {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: block;
+    overflow-y: auto;
+}
+
+.modal_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal_form_wrap {
+    width: 320px;
+    background-color: rgba(39, 39, 39, 0.95);
+    border-radius: 6px;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.modal_form_wrap h2, .modal_booking_wrap h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    /* text-align: center; */
+    background-color: #ffc30e;
+    padding: 10px 40px 10px 15px;
+    color: #222;
+}
+.modal_form_wrap h2 i, .modal_booking_wrap h2 i{
+    font-size: 18px;
+    color: rgba(0,0,0,0.25);
+    margin-right: 4px;
+}
+.modal_close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.modal_close i {
+    color: #222;
+    font-size: 16px;
+    display: block;
+}
+
+.modal_form_wrap ul {
+    padding: 0 20px;
+}
+
+.modal_form_wrap label {
+    font-size: 13px;
+    margin-bottom: 2px;
+    color: #ddd;
+}
+
+.modal_form_wrap li {
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.modal_form_wrap li:last-child {
+    margin-bottom: 0;
+}
+
+.modal_form_wrap li .dark_bg {
+    background-color: #111;
+    border-radius: 6px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.modal_form_wrap li span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 42px;
+    color: #444;
+    height: 100%;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.modal_form_wrap li .dark_bg input {
+    width: 100%;
+    position: relative;
+    background-color: transparent;
+    color: #ddd;
+    padding: 7px 8px 7px 38px;
+}
+
+.modal_form_wrap .custom-control-input:checked~.custom-control-label::before {
+    border-color: #ca9700;
+    background-color: #dca500;
+}
+
+.modal_form_wrap .custom-checkbox label {
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+.modal_form_wrap li input[type="submit"] {
+    width: 90%;
+    background-color: #ffc30e;
+    padding: 6px;
+    border-radius: 6px;
+    font-weight: 500;
+    margin: 0 auto;
+    display: block;
+    color: black
+}
+
+.signup_link {
+    color: #fff;
+    text-align: center;
+    display: block;
+    margin-top: 4px;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.signup_link:hover {
+    color: #fff;
+}
+.modal_form_wrap li a{
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-size: 11px;
+    color: #ddd;
+    padding: 6px 0 0;
+}
+
+/* Booking info modal */
+.modal_booking_wrap{
+    width: 100%;
+    max-width: 720px;
+    background-color: rgba(39, 39, 39, 0.95);
+    border-radius: 6px;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 50px;
+}
+.booking_modal_details_container{
+    padding: 0 15px 20px;
+    width: 100%;
+    position: relative;
+}
+.booking_modal_details_title_wrap{
+    width: 100%;
+    display: inline-block;
+}
+.booking_modal_details_title_wrap h3{
+    font-size: 20px;
+    margin-right: 15px;
+    font-weight: 600;
+    float: left;
+}
+.booking_modal_details_title_wrap h3 a{
+    color: #fff;
+}
+.booking_modal_details_title_wrap .star_val{
+    display: flex;
+}
+.booking_modal_details_title_wrap .star_val i{
+    font-size: 14px;
+    line-height: 24px;
+}
+.booking_modal_gen_details_wrap{}
+.booking_modal_hotel_address_wrap{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.booking_modal_hotel_address_wrap i{
+    font-size: 14px;
+    margin-right: 4px;
+}
+.booking_modal_com_info_wrap{
+    width: 100%;
+    position: relative;
+    padding: 15px 0 5px;
+}
+.booking_modal_com_info_wrap h3{
+    font-size: 16px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 5px;
+}
+.booking_modal_com_item{
+    font-size: 14px;
+    display: flex;
+    margin-bottom: 4px;
+}
+.booking_modal_com_item strong{
+    font-weight: 300;
+    min-width: 100px;
+    margin-right: 5px;
+    color: #ccc;
+}
+.prime_col{
+    color: #ffc30e
+}
+.modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 0px!important;
+}

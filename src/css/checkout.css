@@ -1,0 +1,581 @@
+#checkout_main_bg {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/images/campfire.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.checkout_main_container {
+    /* width: 100%; */
+    position: relative;
+    /* max-width: 1200px;
+    margin: 0 auto;
+    display: table; */
+    padding: 140px 0 60px;
+}
+
+#checkout .checkout_info_container {
+    width: calc(100% - 340px);
+    float: left;
+    padding: 0 0 30px 20px;
+}
+
+#checkout .checkout_price_container {
+    width: 320px;
+    min-height: 300px;
+    float: right;
+}
+
+#checkout .checkout_prop_info_pad_container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    position: relative;
+    border-radius: 12px;
+}
+
+#checkout .checkout_prop_info_container{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    border-radius: 12px;
+}
+
+#checkout .s_hotel_container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin: 0 0 24px;
+}
+
+#checkout .s_hotel_img_container {
+    width: 220px;
+}
+
+#checkout  .s_hotel_img_container img {
+    border-radius: 8px;
+}
+
+#checkout .s_hotel_info_container {
+    width: calc(100% - 360px);
+    padding: 0 15px 0 20px;
+    position: relative;
+}
+
+#checkout .s_hotel_info_container .tour_review {
+    float: left;
+}
+
+#checkout .s_hotel_info_container .star_val i {
+    font-size: 14px;
+    display: inline-block;
+}
+
+#checkout .s_hotel_info_container .star_rate {
+    margin-left: 0;
+    display: inline-block;
+    float: none;
+    background-color: #024f90;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+#checkout .s_hotel_info_container .star_rate h2 {
+    font-size: 14px;
+    color: #ddd;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+#checkout .s_hotel_details_wrap {
+    clear: both;
+}
+
+#checkout .s_hotel_details_wrap h3 {
+    color: #ddd;
+    font-size: 24px;
+    padding: 8px 0;
+    margin-bottom: 5px;
+}
+
+#checkout .s_hotel_details_wrap p {
+    color: #ddd;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#checkout .s_hotel_details_wrap i {
+    margin-right: 5px;
+}
+
+#checkout .s_hotel_stay_info_container {
+    border: 1px solid rgba(256, 256, 256, 0.1);
+    /* padding: 15px; */
+    border-radius: 8px;
+}
+
+#checkout .s_hotel_stay_info_list_item {
+    padding: 15px;
+    color: #fff;
+}
+
+#checkout  .right_border_light {
+    border-right: 1px solid rgba(256, 256, 256, 0.1);
+}
+
+.s_hotel_stay_info_list_item h3 {
+    font-size: 14px;
+}
+
+.s_hotel_stay_info_list_item h4 {
+    font-size: 16px;
+    color: #ffc30e;
+}
+
+.s_hotel_stay_info_list_item p {
+    font-size: 14px;
+    color: #ddd;
+    margin: 0;
+}
+
+.checkout_prop_info_container h2 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.s_hotel_room_container{
+    width: 100%;
+    padding: 0 20px 15px;
+}
+.s_hotel_room_wrap {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid rgba(256, 256, 256, 0.1);
+    padding-bottom: 20px;
+}
+.s_hotel_room_container:last-child .s_hotel_room_wrap{
+    border: 0;
+    padding-bottom: 0;
+}
+
+.checkout_prop_info_container .checkout_info_container_title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 8px;
+    padding: 10px 0 3px;
+}
+
+.s_hotel_room_img_container {
+    width: 160px;
+    border-radius: 4px;
+    overflow: hidden;
+    float: left;
+}
+
+.s_hotel_room_img_container img {}
+
+.s_hotel_room_info_container {
+    width: calc(100% - 180px);
+    float: right;
+    color: #fff;
+}
+
+.s_hotel_room_inclusions {}
+
+.s_hotel_room_inclusions h3 {
+    font-size: 14px;
+}
+
+.s_hotel_room_inclusions p {
+    font-size: 13px;
+    color: #ccc;
+    margin-bottom: 3px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.s_hotel_room_inclusions p::before {
+    position: absolute;
+    content: "\f058";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    font-family: "Font Awesome 5 Free";
+    left: 0;
+    top: 0;
+    line-height: 20px;
+    color: #ccc;
+}
+
+#checkout .s_hotel_room_cancellation {
+    position: relative;
+    width: 100%;
+    padding-top: 12px;
+}
+
+#checkout .s_hotel_room_cancellation p {
+    font-size: 14px;
+    color: lawngreen;
+    margin-bottom: 0;
+    position: relative;
+    padding-left: 20px;
+}
+
+#checkout .s_hotel_room_cancellation p::before {
+    position: absolute;
+    content: "\f274";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    font-family: "Font Awesome 5 Free";
+    left: 0;
+    top: 0;
+    line-height: 20px;
+    color: lawngreen;
+}
+
+#checkout .s_hotel_room_cancellation a {
+    font-size: 12px;
+}
+
+#checkout .s_hotel_guest_container {
+    padding: 15px 20px;
+    color: #fff;
+}
+
+#checkout .s_hotel_guest_container .dash_inut_group_container .input_block input {
+    padding: 6px 8px;
+}
+
+.s_hotel_guest_container .dash_inut_group_container .input_block select {
+    padding: 5px 7px;
+}
+
+.s_hotel_guest_container .dash_inut_group_container ul {
+    margin-bottom: 0;
+}
+
+.s_hotel_guest_container .dash_inut_group_container li p {
+    font-size: 13px;
+}
+
+.s_hotel_guest_container .dash_inut_group_container li span {
+    font-size: 12px;
+    color: #ffa64b;
+}
+
+.dash_inut_group_container li a {
+    font-size: 13px;
+}
+
+.s_hotel_guest_container .dash_inut_group_container li:last-child {
+    margin-bottom: 0;
+}
+
+/* .checkout_prop_info_container .checkout_info_container_title a {
+    float: right;
+    color: #777;
+} */
+
+.checkout_price_detail_wrap {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.checkout_prop_info_container h2, .checkout_price_detail_wrap h2 {
+    font-size: 20px;
+    border-bottom: 1px solid rgba(256, 256, 256, 0.1);
+    padding: 15px 20px;
+}
+
+.checkout_price_split_detail {}
+
+.checkout_price_split_detail ul {
+    padding: 15px 20px;
+}
+
+.checkout_price_split_detail li {
+    padding-top: 15px;
+    border-bottom: 1px solid rgba(256, 256, 256, 0.1);
+}
+
+.checkout_price_split_detail li:first-child {
+    padding-top: 0;
+}
+
+.checkout_price_split_detail li:last-child {
+    padding-top: 0;
+    border-bottom: 0;
+}
+
+.checkout_detail_item_wrap {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.checkout_detail_item_wrap p {
+    color: #ddd;
+    font-size: 14px;
+}
+
+.checkout_detail_item_wrap p span {
+    font-size: 12px;
+    padding: 4px 5px 3px;
+    background-color: darkgreen;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.checkout_detail_item_wrap span b {}
+
+.checkout_detail_item_wrap h3 {
+    font-size: 16px;
+    padding-top: 15px;
+    color: #ffc30e;
+}
+.yo_token_info_container .yo_tok_final_status{
+    display: inline-block;
+}
+.yo_token_info_container .checkout_detail_item_wrap h4{
+    text-align: right;
+    margin: 15px 0 0;
+    color: chartreuse;
+    font-size: 18px;
+    display: none;
+}
+.yo_token_info_container .checkout_detail_item_wrap h4.active{
+    display: block;
+}
+.yo_token_info_container .checkout_detail_item_wrap h4 i{
+    margin-right: 5px;
+}
+.yo_token_info_container .add_yo_trans_token{
+    background-color: #ffc30e;
+    float: right;
+    margin-top: 15px;
+    font-weight: 500;
+    display: none;
+}
+.yo_token_info_container .checkout_detail_item_wrap p b{
+    font-size: 11px;
+}
+.yo_token_info_container .add_yo_trans_token.active{
+    display: block;
+    font-size: 14px;
+}
+.yo_token_info_container .add_yo_trans_token i{
+    margin-right: 5px;
+}
+.payment_option_container{
+    width: 100%;
+    padding: 10px 20px 20px;
+    color: #fff;
+}
+.payment_option_wrap{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: rgba(256, 256, 256, 0.05);
+}
+.payment_option_wrap:last-child{
+    margin-bottom: 0;
+}
+.payment_option_wrap label.yo_tok{
+    color: #ffc30e;
+}
+.payment_option_wrap label.yo_tok span{
+    color: #ccc;
+    font-size: 14px;
+    display: none;
+}
+.payment_option_wrap label.yo_tok span.active{
+    display: block;
+}
+
+.login_txt{
+    cursor: pointer;
+    color: #007bff;
+    display: inline-block;
+}
+.yo_token_info_container{
+    width: 100%;
+    padding-top: 20px;
+}
+.yo_token_info_container.active{
+    display: block;
+}
+.proceed_btn_container {
+    display: block;
+    clear: both;
+    position: relative;
+    width: 100%;
+}
+
+.proceed_btn {
+    color: #222;
+    background-color: #ffc30e;
+    margin: 0 auto;
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 7px 100px 6px;
+}
+
+.payment_prop_info_container {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.payment_prop_info_container h2 {
+    padding: 15px 20px;
+    border-bottom: 1px solid rgba(256, 256, 256, 0.1);
+    font-size: 20px;
+    margin: 0;
+}
+
+.payment_mode_container {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid rgba(256, 256, 256, 0.1);
+}
+.payment_mode_container:last-child{
+    border: 0;
+}
+
+.payment_mode_title {
+    width: 100%;
+}
+
+.payment_mode_title a {
+    padding: 15px 20px;
+    width: 100%;
+    display: block;
+    color: #ffc30e;
+    font-size: 18px;
+}
+
+.payment_mode_title i {
+    margin-right: 6px;
+}
+
+.payment_mode_title i.togl_icon_right {
+    float: right;
+    color: #444;
+    font-size: 18px;
+}
+
+.payment_mode_info_wrap {
+    width: 100%;
+    padding: 15px 20px;
+}
+
+.card_img_container {}
+
+.cards_img {}
+
+.payment_mode_details_wrap {}
+
+.payment_mode_details_wrap p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #ddd;
+}
+
+.policy_text {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #aaa;
+}
+
+.policy_text a {}
+
+.payment_mode_details_wrap .form-check {
+    border: 1px solid rgba(256, 256, 256, 0.15);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.payment_mode_details_wrap .form-check label {
+    position: relative;
+    padding: 12px 10px;
+    width: 100%;
+    font-size: 14px;
+    display: inline-flex;
+}
+
+.payment_mode_details_wrap .form-check input {}
+
+.payment_mode_details_wrap .form-check label span {}
+
+.pay_comp_logo {
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    top: -2px;
+    position: relative;
+}
+
+.sbi_bank_logo {
+    background-image: url(../assets/images/bankimgnew.png);
+    background-position: -50px 0;
+}
+.icici_bank_logo{
+    background-image: url(../assets/images/bankimgnew.png);
+    background-position: -127px 0;
+}
+.hdfc_bank_logo{
+    background-image: url(../assets/images/bankimgnew.png);
+    background-position: -25px 0;
+}
+.axis_bank_logo{
+    background-image: url(../assets/images/bankimgnew.png);
+    background-position: -75px 0;
+}
+
+.paynow_btn {
+    background-color: #ffc30e;
+    margin-top: 25px;
+    width: 100%;
+    font-weight: 500;
+    word-spacing: 5px;
+    padding: 5px 20px;
+}
+
+.amazonpay_logo {
+    background-image: url(../assets/images/amazonpay.png);
+    width: 90px;
+    background-size: contain;
+    top: 6px;
+}
+.airtelpay_logo {
+    background-image: url(../assets/images/airtel-logo.png);
+    width: 90px;
+    background-size: contain;
+    top: 0px;
+}
+.search_input_container button:focus {
+  outline: 1px dotted;
+}
+.multiselect__option--selected {
+  background: #ffc30e;
+  color: #35495e;
+  font-weight: 700;
+}
+

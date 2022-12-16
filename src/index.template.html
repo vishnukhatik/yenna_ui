@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= productName %></title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="<%= productDescription %>">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width<% if (ctx.mode.cordova || ctx.mode.capacitor) { %>, viewport-fit=cover<% } %>">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Roboto:300,400,500,700,900|Titillium+Web:300,400,600,700,900&display=swap"
+        rel="stylesheet">
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMRA7ZCZ9hUFFrd6jX2fDfNfIdcY5wMKw&libraries=places&language=en-AU&sensor=false" type="text/javascript"></script>
+      <link rel="icon" type="image/png" sizes="128x128" href="icons/favicon-128x128.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="icon" type="image/ico" href="/public/favicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/esri-leaflet-geocoder@2.3.2/dist/esri-leaflet-geocoder.css">
+<!--    <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_FwaOKVlPGWGrgT"> </script>-->
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/esri-leaflet@2.3.2/dist/esri-leaflet.js"></script>
+    <script src="https://unpkg.com/esri-leaflet-geocoder@2.3.2/dist/esri-leaflet-geocoder.js"></script>
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="Yenna Rascala">
+    <meta name="twitter:title" content="Yenna Rascala">
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="Yenna Rascala ">
+    <meta property="og:url" content="http://yennarascala.com/">
+    <meta name="twitter:description" content="Book Hotels in  & Save up to 40%, Price starts @₹887. YR Promises &#9989Complimentary Breakfast &#9989Free Cancellation &#9989Free WiFi &#9989AC Room &#9989Spotless linen & &#9989Clean Washrooms.">
+    <meta name="twitter:image" content="http://yennarascala.com/img/logo_small.28c154e5.png">
+  </head>
+  <body id="root-id">
+    <!-- DO NOT touch the following DIV -->
+    <div id="q-app"></div>
+  </body>
+</html>

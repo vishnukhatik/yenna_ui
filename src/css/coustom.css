@@ -1,0 +1,475 @@
+.duration_wrap {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../assets/images/aerial.jpg');
+}
+
+#indonesiaBackImg {
+background-image: url('../assets/images/green-hills-1065753.jpg')
+}
+#AustraliaBackImg {
+background-image: url('../assets/images/blue-sky-clear-sky-cold-fog-346529.jpg')
+}
+#SkylineBackImg{
+background-image: url('../assets/images/architecture-buildings-city-cityscape-366283.jpg')
+}
+#SingaporeBackImg {
+background-image: url('../assets/images/abstract.jpg')
+}
+#map_info_wrapNewYork {
+background-image: url('../assets/images/city-buildings-during-night-time-3787939.jpg')
+}
+#hotel_imgWanchai {
+background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0)
+  ),
+  url('../assets/images/abstract.jpg');
+
+}
+
+.pac-item .pac-matched {
+color: black
+}
+
+
+
+#hotel_imgShanghai {
+background-image: linear-gradient(
+  0deg,
+  rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0)
+),
+url('../assets/images/h4.jpg');
+}
+
+
+
+
+#bookingDetails #cardGroup .card-header {
+  background-color: black;
+  opacity: 0.7;
+}
+
+#hotel_imgItaly {
+background-image: linear-gradient(
+  0deg,
+  rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0)
+),
+url('../assets/images/2466357253_03622550a9_b.jpg');
+}
+#content_main_bg {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/images/campfire.jpg) no-repeat center;
+  background-size: cover;
+}
+#indiaBackImg {
+background-image: url('../assets/images/photo-of-temple-during-daytime-3361480.jpg')
+}
+#australiaBackImg {
+background-image: url('../assets/images/adventure-air-aircraft-balloon-210012.jpg')
+}
+#italyBackImg {
+background-image: url('../assets/images/art-design-gallery-group-460736.jpg')
+}
+#newYorkBackImg {
+background-image: url('../assets/images/city-buildings-during-night-time-3787939.jpg')
+}
+
+.q-carousel__control .q-btn__wrapper .q-btn__content {
+position: relative;
+left: 15px;
+bottom: 33px;
+}
+.fade-enter-active, .fade-leave-active {
+transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+opacity: 0;
+}
+.search_bar_input_container .fas {
+color: #aaaaaa
+}
+.apexcharts-tooltip-title, .apexcharts-tooltip-text-label, .apexcharts-tooltip-text-value, .apexcharts-xaxistooltip-text {
+color: black !important;
+}
+.eb-p-validation {
+color: red !important;
+font-size: 12px !important
+}
+/* .pointer_wrap .bg_icon .fas {
+color: red !important
+} */
+
+.pac-item span {
+  color: black !important;
+}
+#dataSel {
+background-image: url('../assets/images/aerial.jpg')
+}
+.footer_form .currency_sel select{
+  color: black
+}
+
+.search_bar_input_container .submit_query input {
+  font-weight: 500;
+}
+
+.select-room-count {
+  color: black;
+  opacity: 1 !important;
+  width: 100%;
+  text-align: center;
+  border-radius: 7px;
+}
+
+#nprogress .bar {
+background-color:#FFC30D!important;
+height: 4px!important;
+}
+
+.yello-bk{
+  background-color:#ffc107!important;
+}
+
+.fa-facebook-square, .fa-twitter-square, .fa-instagram-square {
+  color:#ffc107!important;
+  padding: 2px;
+}
+
+.page-item.active .page-link {
+z-index: 3;
+color: #fff!important;
+background-color: #FFC30D!important;
+border-color: #FFC30D!important;
+}
+
+.tab-content .active {
+background-color: #222;
+padding: 16px;
+}
+.tab-content{
+margin-top: -1px;
+}
+.dash_hotel_detail_tablist_wrap .nav-item a.active {
+padding-bottom: 14px;
+margin-left: -10px;
+}
+.q-editor__content b,
+.q-editor__content font,
+.q-editor__content span,
+.q-editor__content div,
+.q-editor__content blockquote,
+.q-editor__content sub
+{
+  color: black
+}
+
+.swal2-html-container {
+  color: #595959
+}
+
+.pinkred_bgcolor {
+  background-color: #b5003a;
+}
+
+.blgreen_bgcolor {
+  background-color: #00b583;
+}
+
+.violet_bgcolor {
+  background-color: #9000da;
+}
+
+.dash_hotel_room_info_wrap {
+background-color: #2a2a2a;
+border-radius: 6px;
+}
+
+.font-size-21 {
+  font-size: 21px !important;
+}
+.swal2-warning .swal2-icon-content {
+  color: #f8bb86!important;
+}
+.disabled, .disabled1, .new-disabled {
+cursor:not-allowed !important;
+pointer-events: none;
+opacity: 0.5;
+}
+.eb-error-input {
+  height: 100%!important;
+  width: 100%!important;
+  position: relative!important;
+  font-size: 15px!important;
+  bottom: 0px!important;
+  line-height: 0.3;
+}
+
+li .spinner-border {
+width: 2rem !important;
+height: 2rem !important;
+top: 2px!important;
+left: 81%!important;
+}
+a {
+  cursor: pointer
+}
+
+.modal_form_wrap h2,
+.payment_info_container_title{
+  font-weight: 500!important;
+}
+.search_bar_input_container .submit_query input{
+  color: black;
+}
+.paynow_btn {
+  background-color: #ffc30e!important;
+  font-weight: 500!important;
+  padding: 5px 20px!important;
+}
+
+.proceed_btn {
+  color: #222;
+  background-color: #ffc30e !important;
+  margin: 0 auto!important;
+  display: block!important;
+  font-weight: 500!important;
+  font-size: 20px!important;
+  padding: 7px 100px 6px;
+}
+.apexcharts-xaxis tspan {
+  color: white
+}
+.q-editor__toolbars-container .row{
+  margin-right: 0px!important;
+  margin-left: 0px!important;
+}
+.q-editor__content {
+  color: black;
+}
+.admin_header .dash_menu_list_container{
+  padding: 18px !important;
+}
+.contact_address_container h2,
+.contact_address_container p,
+.contact_address_container i
+{
+  color: black !important;
+}
+.selected-box-span span {
+  width: 100% !important;
+}
+.leaflet-control .geocoder-control-input {
+ color: black;
+}
+.yo_tok_final_status .add_yo_trans_token .fa-plus {
+  color: black;
+}
+.q-select-div .row{
+  margin-right: -24px !important;
+  margin-left: -8px !important;
+  margin-bottom: 0;
+}
+
+#checkOutPhone input  {
+  color: black !important;
+  background-color: white !important;
+  border: solid!important;
+  border-width: 1px!important;
+  border-color: #2c2c2c!important;
+}
+#checkOutPhone ::placeholder {
+  color: black !important;
+}
+#checkOutPhone .country-selector__label {
+  color: black!important;
+}
+.country-selector__list__item .dots-text {
+  font-weight: 500;
+}
+.country-selector__country-flag .iti-flag-small{
+  position: relative;
+  left: 29px;
+  bottom: 3px;
+}
+
+.input-tel__label {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 2px!important;
+  height: 2px !important;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1!important;
+  height: 2px !important;
+}
+::-webkit-scrollbar-thumb {
+  background: #cfaa37!important;
+  opacity: 0.5!important;
+  height: 2px !important;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #cfaa37!important;
+  opacity: 0.5!important;
+  height: 2px !important;
+}
+
+#ahmedabad {
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0)
+  ),
+  url('../assets/images/2466357253_03622550a9_b.jpg');
+}
+#hyderabad {
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0)
+  ),
+  url('../assets/images/h1.jpg');
+}
+#pune {
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0)
+  ),
+  url('../assets/images/h2.jpg');
+}
+#bangalore {
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0)
+  ),
+  url('../assets/images/h3.jpg');
+}
+.zoom-in {cursor: zoom-in;}
+.zoom-out {cursor: zoom-out;}
+.add-hote-room-remove-img-main-div {
+  background-color: white;
+  padding-left: 4px;
+  padding-right: 4px;
+  position: relative;
+  float: left;
+  top: 24px;
+  z-index: 1;
+}
+.hote-details-room-remove-img-main-div {
+  background-color: white;
+  padding-left: 4px;
+  padding-right: 4px;
+  position: relative;
+  float: left;
+  left: 20px;
+  z-index: 1;
+}
+.color--yellow {
+  color: #ffc30e
+}
+/* .text-danger {
+  line-height: 23px;
+} */
+/* modal css */
+.modal-content {
+  background-color: #232323 !important;
+  color: #fff !important;
+}
+.modal-content .modal-title p, .modal-content .modal-body p {
+  color: #fff !important;
+}
+.modal-header {
+  border-bottom: 1px solid #000000 !important;
+}
+.modal-header {
+  border-bottom: 1px solid #000000 !important;
+}
+.modal-footer {
+  border-top: 1px solid #000000 !important;
+}
+.text-color-chartreuse {
+  color: chartreuse !important;
+}
+.tooltip-inner {
+  max-width: 500px !important;
+}
+.add-guest {
+  color: #212529;
+  text-decoration: none;
+  background: #ffc30e;
+  padding: 10px;
+  border-radius: 0.25rem;
+  font-weight: 600;
+}
+.add-guest:hover {
+  text-decoration: none;
+  color: #212529;
+}
+.add-guest i {
+  color: #212529;
+}
+.remove-row .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.remove-row .q-field--filled .q-field__control {
+  background: transparent;
+}
+.remove-row .q-field__inner {
+  padding: 0
+}
+.search-hotel-maindiv-multiselect .multiselect__element , .remove-margin-bottom .multiselect__element{
+  margin-bottom: 0 !important;
+}
+.search-hotel-maindiv-multiselect .multiselect__tags {
+  background: #2b2b2b;
+  border: 1px solid #2b2b2b;
+}
+.search-hotel-maindiv-multiselect .multiselect__single, .search-hotel-maindiv-multiselect .multiselect__spinner {
+  background-color: #2b2b2b;
+}
+.search-hotel-maindiv-multiselect ::placeholder {
+  color: white
+}
+.search-hotel-maindiv-multiselect .multiselect__tag , .search-hotel-maindiv-multiselect .multiselect__tag span{
+  background: #ffc30e;
+  color: black;
+  font-weight: 500;
+  font-size: 12px;
+}
+ .search-hotel-maindiv-multiselect .multiselect__tag i:hover {
+   background-color: rgb(226, 45, 45);
+ }
+ .numbr_guests {
+  display: block !important;
+}
+.text-truncate,
+.b-calendar-grid-weekdays,
+.b-calendar-grid-caption {
+  color: #001420;
+}
+.b-calendar-nav {
+  background: #001420 !important;
+}
+.q-dialog__backdrop .q-date__view {
+  background-color: #FFC30D !important;
+  opacity: 0.8;
+}
+.q-date__view .row, .eb-search .row  {
+  margin-right: 0px !important;
+  margin-left: -2px !important;
+}
+.q-virtual-scroll__content .row{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.q-item__label, .multiselect__input {
+  color: black
+}

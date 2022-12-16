@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+  <title>Yennarascala</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Roboto:300,400,500,700,900|Titillium+Web:300,400,600,700,900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="world_wrap">
+    <header class="header">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-md navbar-light">
+        <a class="navbar-brand" href="index.html"><img src="assets/images/logo_small.png" class="img-fluid"></a>
+        <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between right" id="nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-light px-3" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light px-3" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light px-3" href="#">CONTACT</a>
+            </li>
+            <li class="nav-item">
+                <div class="signin_container">
+                    <a class="nav-link text-light " href="login.html"><i class="fas fa-user-circle"></i> Login</a> /
+                    <a class="nav-link text-light " href="signup.html">Sign Up</a>
+                </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="main_container">
+      <section class="map_wrap">
+        <div class="map_container">
+          <img src="assets/images/yellow_world.png" alt="" class="world_img img-fluid">
+
+          <!---------- Pointers with info containers ------------>
+          <div class="pointers_contianer">
+            <div class="map_pointer" id="indian_tours">
+              <div class="pointer_wrap"><span class="tour_name">India</span><i
+                  class="fas fa-map-marker-alt tour_mark"></i></div>
+              <a href="date-sel.html">
+                <div class="map_info_wrap"
+                  style="background-image: url('assets/images/photo-of-temple-during-daytime-3361480.jpg');">
+                  <div class="row">
+                    <div class="col-6">
+                      <h4>India</h4>
+                    </div>
+                    <div class="col-6">
+                      <div class="fav_tour">
+                        <span>156</span>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="num_info">
+                    <div class="num_tours">26 Tours</div>
+                    <div class="num_activities">18 Activities</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="map_pointer" id="china_tours">
+              <div class="pointer_wrap"><span class="tour_name">China</span><i
+                  class="fas fa-map-marker-alt tour_mark"></i></div>
+              <a href="date-sel.html">
+                <div class="map_info_wrap" style="background-image: url('assets/images/nature-red-forest-leaves.jpg');">
+                  <div class="row">
+                    <div class="col-6">
+                      <h4>China</h4>
+                    </div>
+                    <div class="col-6">
+                      <div class="fav_tour">
+                        <span>156</span>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="num_info">
+                    <div class="num_tours">26 Tours</div>
+                    <div class="num_activities">18 Activities</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="map_pointer" id="australia_tours">
+              <div class="pointer_wrap"><span class="tour_name">Australia</span><i
+                  class="fas fa-map-marker-alt tour_mark"></i></div>
+              <a href="date-sel.html">
+                <div class="map_info_wrap"
+                  style="background-image: url('assets/images/adventure-air-aircraft-balloon-210012.jpg');">
+                  <div class="row">
+                    <div class="col-6">
+                      <h4>Australia</h4>
+                    </div>
+                    <div class="col-6">
+                      <div class="fav_tour">
+                        <span>156</span>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="num_info">
+                    <div class="num_tours">26 Tours</div>
+                    <div class="num_activities">18 Activities</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="map_pointer" id="italy_tours">
+              <div class="pointer_wrap"><span class="tour_name">Italy</span><i
+                  class="fas fa-map-marker-alt tour_mark"></i></div>
+              <a href="date-sel.html">
+                <div class="map_info_wrap"
+                  style="background-image: url('assets/images/art-design-gallery-group-460736.jpg');">
+                  <div class="row">
+                    <div class="col-6">
+                      <h4>Italy</h4>
+                    </div>
+                    <div class="col-6">
+                      <div class="fav_tour">
+                        <span>156</span>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="num_info">
+                    <div class="num_tours">26 Tours</div>
+                    <div class="num_activities">18 Activities</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="map_pointer" id="newyork_tours">
+              <div class="pointer_wrap"><span class="tour_name">New York</span><i
+                  class="fas fa-map-marker-alt tour_mark"></i></div>
+              <a href="date-sel.html">
+                <div class="map_info_wrap" style="background-image: url('assets/images/city-buildings-during-night-time-3787939.jpg');">
+                  <div class="row">
+                    <div class="col-6">
+                      <h4>New York</h4>
+                    </div>
+                    <div class="col-6">
+                      <div class="fav_tour">
+                        <span>156</span>
+                        <i class="fas fa-heart"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="num_info">
+                    <div class="num_tours">26 Tours</div>
+                    <div class="num_activities">18 Activities</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!----------- pointer container end ------------>
+        </div>
+      </section>
+
+      <section class="tour_offers">
+        <div class="iso-grid">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="offer_wrap doubl_height" id="indonesia_offer"
+                style="background-image: url('assets/images/h5.jpg');">
+                <h3>Indonesia</h3>
+                <div class="offer_details">
+                  <h4>20% Off</h4>
+                  <p>Ease of booking, fantastic products and competitive pricing makes the booking experience amazing
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="offer_wrap" id="indonesia_offer"
+                    style="background-image: url('assets/images/blue-sky-clear-sky-cold-fog-346529.jpg');">
+                    <h3>Australia</h3>
+                    <div class="offer_details">
+                      <h4>Upto 36,000 Off</h4>
+                      <p>Ease of booking, fantastic products and competitive pricing makes the booking experience
+                        amazing</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="offer_wrap" id="indonesia_offer"
+                    style="background-image: url('assets/images/architecture-buildings-city-cityscape-366283.jpg');">
+                    <h3>Skyline City</h3>
+                    <div class="offer_details">
+                      <h4>15% Off</h4>
+                      <p>Ease of booking, fantastic products and competitive pricing makes the booking experience
+                        amazing</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="offer_wrap" id="indonesia_offer"
+                    style="background-image: url('assets/images/abstract-architecture-art-artistic-262577.jpg');">
+                    <h3>Singapore</h3>
+                    <div class="offer_details">
+                      <h4>10% Off</h4>
+                      <p>Ease of booking, fantastic products and competitive pricing makes the booking experience
+                        amazing</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <div class="subscribe_label">
+                <div class="label_img">
+                  <img src="assets/images/ico_email_subscribe.svg" alt="">
+                </div>
+                <div class="label_text">
+                  <h4>Get Updates & More</h4>
+                  <p>Thoughtful thoughts to your inbox</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="subscriber_form">
+                <form>
+                  <input type="email">
+                  <input type="submit" value="subscribe">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container main_footer">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="footer_col" id="need_help">
+            <h4>Need Help?</h4>
+            <div class="footer_inner">
+              <div class="footer_minirow">
+                <h5>Call Us</h5>
+                <span>+91 7680899602</span>
+              </div>
+            </div>
+            <div class="footer_inner">
+              <div class="footer_minirow">
+                <h5>Call Us</h5>
+                <span><a href="mailto:bijjam@yennarascala.com">bijjam@yennarascala.com</a></span>
+              </div>
+            </div>
+            <div class="footer_inner">
+              <div class="footer_minirow">
+                <h5>Follow Us</h5>
+                <span>
+                  <a href="#"><i class="fab fa-facebook-square"></i></a>
+                  <a href="#"><i class="fab fa-twitter-square"></i></a>
+                  <a href="#"><i class="fab fa-instagram-square"></i></a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer_col" id="company">
+            <h4>Company</h4>
+            <div class="footer_menu">
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Community Blog</a></li>
+                <li><a href="#">Rewards</a></li>
+                <li><a href="#">Work with Us</a></li>
+                <li><a href="#">Meet the Team</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="footer_col" id="company">
+            <h4>Support</h4>
+            <div class="footer_menu">
+              <ul>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Legal</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Affiliate Program</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer_col" id="setting">
+            <h4>Setting</h4>
+            <div class="footer_form">
+              <label>Currencies</label>
+              <div class="currency_sel">
+                <span class="fas fa-chevron-down"></span>
+                <select>
+                  <option value="inr">Inr</option>
+                  <option value="eur">Eur</option>
+                  <option value="mercedes">Usd</option>
+                  <option value="audi">Aud</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="sub_footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6">
+          <p>Copyright © 2020 by <a href="#">Yennarascala Tours</a></p>
+        </div>
+        <div class="col-sm-6"><img src="assets/images/footer_sub.jpg" alt=""></div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script> -->
+  <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
